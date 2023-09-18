@@ -5,13 +5,13 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         List<Horse> horses = List.of(
-                new Horse("name", 2.4),
-                new Horse("name1", 2.5),
-                new Horse("name2", 2.6),
-                new Horse("name3", 2.7),
-                new Horse("name4", 2.8),
-                new Horse("name5", 2.9),
-                new Horse("name6", 3)
+                new Horse("Bucephalus", 2.4),
+                new Horse("Ace of Spades", 2.5),
+                new Horse("Zephyr", 2.6),
+                new Horse("Blaze", 2.7),
+                new Horse("Lobster", 2.8),
+                new Horse("Pegasus", 2.9),
+                new Horse("Cherry", 3)
         );
         Hippodrome hippodrome = new Hippodrome(horses);
 
