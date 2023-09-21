@@ -9,6 +9,7 @@ import static java.util.Objects.isNull;
 
 public class Hippodrome {
 
+
     private static final Logger LOGGER = LogManager.getLogger(Hippodrome.class);
     private final List<Horse> horses;
 

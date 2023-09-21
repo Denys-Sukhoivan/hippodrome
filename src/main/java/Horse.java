@@ -5,6 +5,7 @@ import static java.util.Objects.isNull;
 
 public class Horse {
     private static final Logger LOGGER = LogManager.getLogger(Horse.class);
+
     private final String name;
     private final double speed;
     private double distance;
